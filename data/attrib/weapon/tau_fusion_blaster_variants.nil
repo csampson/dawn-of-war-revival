@@ -1,0 +1,25 @@
+GameData = Inherit([[weapon\tau_shooting_weapons.nil]])
+MetaData = InheritMeta([[weapon\tau_shooting_weapons.nil]])
+
+GameData["accuracy"] = 0.70000
+GameData["accuracy_reduction_when_moving"] = 0.55000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 60.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 50.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage_value"] = 2.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 2.00000
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Tau\\unit_impact\\fusion_all_chest"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Tau\\unit_impact\\fusion_all_chest"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Tau\\unit_impact\\fusion_all"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Tau\\unit_impact\\fusion_all"
+GameData["miss_events"]["dirtsand"] = "Tau\\terrain_miss\\fusion_rifle_dirtsand"
+GameData["miss_events"]["grass"] = "Tau\\terrain_miss\\fusion_rifle_grass"
+GameData["miss_events"]["rock"] = "Tau\\terrain_miss\\fusion_rifle_rock"
+GameData["miss_events"]["water"] = "Tau\\terrain_miss\\fusion_rifle_water"
+GameData["reload_time"] = 1.00000
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

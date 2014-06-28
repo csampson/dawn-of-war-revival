@@ -1,0 +1,24 @@
+GameData = Inherit([[ebps\races\tau\troops\tau_troop.nil]])
+MetaData = InheritMeta([[ebps\races\tau\troops\tau_troop.nil]])
+
+GameData["clone_ext"] = Reference([[ebpextensions\clone_ext.lua]])
+GameData["clone_ext"]["spawn_event_name"] = "Tau/Abilities/clone_unit"
+GameData["health_ext"]["death_event"] = "Tau/Abilities/clone_unit_die"
+GameData["health_ext"]["keep_persistent_body"] = false
+GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
+GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\health_meleedamage_received_modifier.lua]])
+GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = 3.00000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\health_rangedamage_received_1_modifier.lua]])
+GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = 3.00000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_03"] = Reference([[modifiers\enable_squad_morale_damage.lua]])
+GameData["modifier_apply_ext"]["modifiers"]["modifier_03"]["value"] = -1.00000
+GameData["ui_ext"]["speech_directory"] = "Speech\\Races\\Tau\\Clones"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["clone_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["modifier_apply_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

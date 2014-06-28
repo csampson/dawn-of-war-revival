@@ -1,0 +1,10 @@
+GameData = Inherit([[ebps\environment\single_player_tgd\single_player_tgd.nil]])
+MetaData = InheritMeta([[ebps\environment\single_player_tgd\single_player_tgd.nil]])
+
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

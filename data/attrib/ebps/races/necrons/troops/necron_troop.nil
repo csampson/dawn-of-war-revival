@@ -1,0 +1,29 @@
+GameData = Inherit([[ebps\races\troop.nil]])
+MetaData = InheritMeta([[ebps\races\troop.nil]])
+
+GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_03"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_03"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_negative"]["modifiers"] = Reference([[tables\group_entry.lua]])
+GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+GameData["event_manager_ext"]["event_04"]["event_entry_01"]["event_name"] = "Tau\\Abilities\\Mark_Target"
+GameData["event_manager_ext"]["event_04"]["modifier_name"] = "ability_tau_mark_target_event"
+GameData["event_manager_ext"]["event_22"]["event_entry_01"]["event_name"] = "Unit_Ability_FX\\Entanglement"
+GameData["event_manager_ext"]["event_22"]["modifier_name"] = "ability_eldar_entangle_event"
+GameData["event_manager_ext"]["event_23"]["event_entry_01"]["event_name"] = "necron\\abilities\\Souless_Strike"
+GameData["event_manager_ext"]["event_23"]["modifier_name"] = "ability_souless_strike_event"
+GameData["event_manager_ext"]["event_24"]["event_entry_01"]["event_name"] = "necron\\abilities\\chronometron"
+GameData["event_manager_ext"]["event_24"]["modifier_name"] = "ability_necron_chronometron_event"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

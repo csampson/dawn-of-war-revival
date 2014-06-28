@@ -1,0 +1,12 @@
+GameData = Inherit([[ebps\races\tau\troops\tau_troop.nil]])
+MetaData = InheritMeta([[ebps\races\tau\troops\tau_troop.nil]])
+
+GameData["health_ext"]["death_event"] = "data:/art/events/unit_death_events/sink_into_ground.events"
+GameData["health_ext"]["spawn_blood_splat_on_death"] = "ebps\\environment\\gameplay\\blood_splat.lua"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

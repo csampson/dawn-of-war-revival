@@ -1,0 +1,12 @@
+GameData = Inherit([[]])
+MetaData = InheritMeta([[]])
+
+GameData["squad_blueprint_ext"] = Reference([[sbpextensions\squad_blueprint_ext.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["squad_blueprint_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

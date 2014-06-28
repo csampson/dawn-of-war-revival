@@ -1,0 +1,10 @@
+GameData = Inherit([[sbps\races\squad.nil]])
+MetaData = InheritMeta([[sbps\races\squad.nil]])
+
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

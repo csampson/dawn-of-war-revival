@@ -1,0 +1,21 @@
+GameData["requirements"]["required_1"]["is_display_requirement"] = true
+GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\dark_eldar\\structures\\dark_eldar_listening_post.lua"
+GameData["requirements"]["required_10"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirements"]["required_10"]["global_addon_name"] = "addons\\addon_dark_eldar_hq_1.lua"
+GameData["time_cost"]["cost"]["power"] = 250.00000
+GameData["time_cost"]["cost"]["requisition"] = 75.00000
+GameData["time_cost"]["time_seconds"] = 60.00000
+GameData["ui_hotkey_name"] = "dark_eldar_upgrade_requisition_1"
+GameData["ui_index_hint"] = 5.00000
+GameData["ui_info"]["help_text_list"]["text_01"] = "$4150075"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$4150076"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$4150077"
+GameData["ui_info"]["icon_name"] = "space_marine_icons/req_inc_research_1"
+GameData["ui_info"]["screen_name_id"] = "$4150074"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 592550, rangeEnd = 592599, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

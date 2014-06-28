@@ -1,0 +1,13 @@
+GameData = Inherit([[ebps\races\building.nil]])
+MetaData = InheritMeta([[ebps\races\building.nil]])
+
+GameData["event_manager_ext"]["event_07"]["event_entry_01"]["event_name"] = "Unit_Ability_FX\\Wraith_Tomb"
+GameData["event_manager_ext"]["event_07"]["modifier_name"] = "ability_wraith_tomb_event"
+GameData["ui_ext"]["minimap_enable"] = true
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

@@ -1,0 +1,26 @@
+GameData = Inherit([[]])
+MetaData = InheritMeta([[]])
+
+GameData["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
+GameData["exclusive"] = false
+GameData["modifier_class_name"] = Reference([[type_modifier\tp_modifier.lua]])
+GameData["probability_of_applying"] = 1.00000
+GameData["shield_of_faith"] = false
+GameData["target_type_name"] = ""
+GameData["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_multiplication.lua]])
+GameData["value"] = 1.00000
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["application_type"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["exclusive"] = {desc = [[]], type = 3, category = [[]], dispval = [[]], }
+MetaData["modifier_class_name"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["probability_of_applying"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["shield_of_faith"] = {desc = [[]], type = 3, category = [[]], dispval = [[]], }
+MetaData["target_type_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["usage_type"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["value"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }

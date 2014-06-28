@@ -1,0 +1,12 @@
+GameData = Inherit([[weapon\melee_weapons.nil]])
+MetaData = InheritMeta([[weapon\melee_weapons.nil]])
+
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Unit_Impact_events\\Blood_Splatter_Impact_S"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Unit_Impact_events\\Blood_Splatter_Impact_S"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

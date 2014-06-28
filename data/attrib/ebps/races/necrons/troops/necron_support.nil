@@ -1,0 +1,19 @@
+GameData = Inherit([[ebps\races\necrons\troops\necron_troop.nil]])
+MetaData = InheritMeta([[ebps\races\necrons\troops\necron_troop.nil]])
+
+GameData["event_manager_ext"]["event_24"]["event_entry_01"]["event_name"] = "Necron/Abilities/phase_shift_unit"
+GameData["event_manager_ext"]["event_24"]["modifier_name"] = "ability_necron_phase_shift_event"
+GameData["health_ext"]["poison_damage"] = 0.00000
+GameData["health_ext"]["poison_damage_duration"] = 0.00000
+GameData["health_ext"]["poison_immunity_duration"] = 0.00000
+GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
+GameData["spawn_ext"]["oncreate_event_name"] = "Necron/abilities/necron_teleportation"
+GameData["type_ext"]["type_surface"] = Reference([[type_surface\tp_heavy_metal_armour.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["spawn_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
