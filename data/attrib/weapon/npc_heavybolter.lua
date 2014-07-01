@@ -1,3 +1,9 @@
+GameData = Inherit([[weapon\npc_shooting_weapons.nil]])
+MetaData = InheritMeta([[weapon\npc_shooting_weapons.nil]])
+
+GameData["accuracy_reduction_when_moving"] = 1.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing"] = 2.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_01"]["armour_piercing_value"] = 7.12700
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_01"]["armour_type"] = Reference([[type_armour\tp_vehicle_low.lua]])
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_02"]["armour_piercing_value"] = 3.24900
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_02"]["armour_type"] = Reference([[type_armour\tp_vehicle_med.lua]])
