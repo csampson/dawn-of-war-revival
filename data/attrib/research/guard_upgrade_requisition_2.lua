@@ -1,3 +1,9 @@
+GameData = Inherit([[research\guard_upgrade_requisition_1.lua]])
+MetaData = InheritMeta([[research\guard_upgrade_requisition_1.lua]])
+
+GameData["modifiers"]["modifier_01"]["value"] = 1.25000
+GameData["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirements"]["required_1"]["global_addon_name"] = "addons\\addon_guard_hq_2.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_10"]["research_name"] = "research\\guard_upgrade_requisition_1.lua"
 GameData["requirements"]["required_11"] = Reference([[requirements\required_research.lua]])

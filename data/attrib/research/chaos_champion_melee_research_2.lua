@@ -1,3 +1,9 @@
+GameData = Inherit([[research\chaos_champion_melee_research_1.lua]])
+MetaData = InheritMeta([[research\chaos_champion_melee_research_1.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_1"]["research_name"] = "chaos_champion_melee_research_1"
+GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["research_name"] = "chaos_champion_melee_research_1"
 GameData["requirements"]["required_2"] = Reference([[requirements\global_required_addon.lua]])

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research_moredakka.lua]])
+MetaData = InheritMeta([[research\ork_research_moredakka.lua]])
+
+GameData["modifiers"]["modifier_01"]["value"] = 1.20000
+GameData["modifiers"]["modifier_02"]["value"] = 1.20000
+GameData["modifiers"]["modifier_03"]["value"] = 1.20000
 GameData["modifiers"]["modifier_04"]["value"] = 1.20000
 GameData["modifiers"]["modifier_05"]["value"] = 1.20000
 GameData["modifiers"]["modifier_06"]["value"] = 1.20000

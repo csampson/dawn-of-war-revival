@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_force_commander_ability_research_1.lua]])
+MetaData = InheritMeta([[research\marine_force_commander_ability_research_1.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_1"]["research_name"] = "marine_force_commander_ability_research_1"
+GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["research_name"] = "marine_force_commander_ability_research_1"
 GameData["requirements"]["required_2"] = Reference([[requirements\global_required_addon.lua]])

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research_tougher_bosses.lua]])
+MetaData = InheritMeta([[research\ork_research_tougher_bosses.lua]])
+
+GameData["modifiers"]["modifier_04"]["value"] = 1.20000
+GameData["modifiers"]["modifier_05"]["value"] = 1.20000
+GameData["modifiers"]["modifier_07"]["value"] = 1.20000
 GameData["modifiers"]["modifier_16"]["value"] = 1.20000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_none.lua]])
 GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])

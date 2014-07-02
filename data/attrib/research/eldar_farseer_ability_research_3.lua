@@ -1,3 +1,9 @@
+GameData = Inherit([[research\eldar_farseer_ability_research_2.lua]])
+MetaData = InheritMeta([[research\eldar_farseer_ability_research_2.lua]])
+
+GameData["time_cost"]["cost"]["power"] = 40.00000
+GameData["time_cost"]["cost"]["requisition"] = 125.00000
+GameData["time_cost"]["time_seconds"] = 50.00000
 GameData["ui_hotkey_name"] = "eldar_farseer_ability_research_3"
 GameData["ui_info"]["help_text_id"] = "$96241"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$96242"

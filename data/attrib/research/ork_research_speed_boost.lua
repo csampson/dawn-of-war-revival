@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research.lua]])
+MetaData = InheritMeta([[research\ork_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\speed_maximum_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
+GameData["modifiers"]["modifier_01"]["exclusive"] = true
 GameData["modifiers"]["modifier_01"]["target_type_name"] = "ork_trukk"
 GameData["modifiers"]["modifier_01"]["value"] = 1.30000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\speed_maximum_modifier.lua]])

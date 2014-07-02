@@ -1,3 +1,9 @@
+GameData = Inherit([[research\eldar_research_infantryhealth_1.lua]])
+MetaData = InheritMeta([[research\eldar_research_infantryhealth_1.lua]])
+
+GameData["modifiers"]["modifier_02"]["value"] = 200.00000
+GameData["modifiers"]["modifier_05"]["value"] = 1.25000
+GameData["modifiers"]["modifier_09"] = Reference([[modifiers\enable_armour_2.lua]])
 GameData["modifiers"]["modifier_09"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
 GameData["modifiers"]["modifier_09"]["target_type_name"] = "eldar_banshees"
 GameData["modifiers"]["modifier_12"]["value"] = 1.25000

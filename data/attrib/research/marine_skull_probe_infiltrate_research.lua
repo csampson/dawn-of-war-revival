@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_scout_infiltrate_research.lua]])
+MetaData = InheritMeta([[research\marine_scout_infiltrate_research.lua]])
+
+GameData["requirements"]["required_11"] = Reference([[requirements\required_none.lua]])
+GameData["time_cost"]["cost"]["power"] = 50.00000
+GameData["time_cost"]["cost"]["requisition"] = 50.00000
 GameData["time_cost"]["time_seconds"] = 30.00000
 GameData["ui_hotkey_name"] = "marine_skull_probe_infiltration_research"
 GameData["ui_index_hint"] = 10.00000

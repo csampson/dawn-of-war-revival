@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_commander_health_research_1.lua]])
+MetaData = InheritMeta([[research\sisters_commander_health_research_1.lua]])
+
+GameData["modifiers"]["modifier_01"]["value"] = 350.00000
+GameData["modifiers"]["modifier_02"]["value"] = 450.00000
+GameData["modifiers"]["modifier_09"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
 GameData["modifiers"]["modifier_09"]["target_type_name"] = "sisters_confessor_hg_dxp3"
 GameData["modifiers"]["modifier_09"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifiers"]["modifier_10"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])

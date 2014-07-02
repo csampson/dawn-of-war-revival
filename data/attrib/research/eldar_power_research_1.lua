@@ -1,3 +1,9 @@
+GameData = Inherit([[research\eldar_research.nil]])
+MetaData = InheritMeta([[research\eldar_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\income_power_player_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["value"] = 1.33000
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["structure_name"] = "eldar_soul_shrine"
 GameData["requirements"]["required_4"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_4"]["is_display_requirement"] = true

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\chaos_research.lua]])
+MetaData = InheritMeta([[research\chaos_research.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirements"]["required_1"]["global_addon_name"] = "chaos_hq_addon_1"
+GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["structure_name"] = "chaos_sacrificial_circle"
 GameData["time_cost"]["cost"]["power"] = 40.00000

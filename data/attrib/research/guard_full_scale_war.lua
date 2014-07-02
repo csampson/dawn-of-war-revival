@@ -1,3 +1,9 @@
+GameData = Inherit([[research\guard_research.nil]])
+MetaData = InheritMeta([[research\guard_research.nil]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirements"]["required_1"]["global_addon_name"] = "addons\\addon_guard_hq_2.lua"
+GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["structure_name"] = "ebps\\races\\guard\\structures\\guard_hq.lua"
 GameData["time_cost"]["cost"]["power"] = 450.00000

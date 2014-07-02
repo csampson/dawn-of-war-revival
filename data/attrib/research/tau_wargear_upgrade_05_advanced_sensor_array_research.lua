@@ -1,3 +1,9 @@
+GameData = Inherit([[research\tau_wargear_upgrade_research.lua]])
+MetaData = InheritMeta([[research\tau_wargear_upgrade_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint5.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "tau_commander_advance_sp"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\sight_radius_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "tau_commander_advance_sp"
 GameData["modifiers"]["modifier_02"]["value"] = 1.20000

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\chaos_research.lua]])
+MetaData = InheritMeta([[research\chaos_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\health_maximum_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "chaos_aspiring_champion"
 GameData["modifiers"]["modifier_01"]["value"] = 1.75000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\health_maximum_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])

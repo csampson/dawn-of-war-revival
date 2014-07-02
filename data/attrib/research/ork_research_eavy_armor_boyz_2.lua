@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research_eavy_armor_boyz.lua]])
+MetaData = InheritMeta([[research\ork_research_eavy_armor_boyz.lua]])
+
+GameData["requirements"]["required_1"]["population_required"] = 50.00000
+GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["research_name"] = "ork_research_eavy_armor_boyz"
 GameData["requirements"]["required_2"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_2"]["research_name"] = "ork_research_eavy_armor_boyz"

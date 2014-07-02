@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research.lua]])
+MetaData = InheritMeta([[research\ork_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\income_power_player_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["value"] = 1.33300
+GameData["requirements"]["required_1"] = Reference([[requirements\required_total_pop.lua]])
 GameData["requirements"]["required_1"]["population_required"] = 50.00000
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\dark_eldar_upgrade_power_1.lua]])
+MetaData = InheritMeta([[research\dark_eldar_upgrade_power_1.lua]])
+
+GameData["modifiers"]["modifier_01"]["value"] = 1.20000
+GameData["requirements"]["required_1"]["global_addon_name"] = "addons\\addon_dark_eldar_hq_2.lua"
+GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_10"]["research_name"] = "research\\dark_eldar_upgrade_power_1.lua"
 GameData["requirements"]["required_11"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_11"]["is_display_requirement"] = true

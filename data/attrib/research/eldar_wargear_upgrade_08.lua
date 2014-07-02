@@ -1,3 +1,9 @@
+GameData = Inherit([[research\eldar_wargear_upgrade_research.lua]])
+MetaData = InheritMeta([[research\eldar_wargear_upgrade_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint7.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "eldar_farseer_advance_sp"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\ability_recharge_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "eldar_farseer_advance_sp"
 GameData["modifiers"]["modifier_02"]["value"] = 0.75000

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research_burna.lua]])
+MetaData = InheritMeta([[research\ork_research_burna.lua]])
+
+GameData["requirements"]["required_1"]["population_required"] = 60.00000
+GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["research_name"] = "ork_research_burna"
 GameData["requirements"]["required_2"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_2"]["research_name"] = "ork_research_burna"

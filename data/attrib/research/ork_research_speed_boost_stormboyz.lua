@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research_speed_boost.lua]])
+MetaData = InheritMeta([[research\ork_research_speed_boost.lua]])
+
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "ork_stormboy"
+GameData["modifiers"]["modifier_02"]["target_type_name"] = "ork_stormboy_nob_leader"
+GameData["requirements"]["required_10"]["is_display_requirement"] = false
 GameData["time_cost"]["cost"]["power"] = 35.00000
 GameData["time_cost"]["cost"]["requisition"] = 25.00000
 GameData["time_cost"]["time_seconds"] = 40.00000

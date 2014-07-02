@@ -1,3 +1,9 @@
+GameData = Inherit([[research\eldar_research_farseerhealth_1.lua]])
+MetaData = InheritMeta([[research\eldar_research_farseerhealth_1.lua]])
+
+GameData["modifiers"]["modifier_01"]["value"] = 300.00000
+GameData["modifiers"]["modifier_04"]["value"] = 1.20000
+GameData["modifiers"]["modifier_05"]["value"] = 1.20000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_1"]["is_display_requirement"] = true
 GameData["requirements"]["required_1"]["research_name"] = "research\\eldar_research_farseerhealth_1.lua"

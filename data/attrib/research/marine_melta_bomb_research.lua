@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_research.nil]])
+MetaData = InheritMeta([[research\marine_research.nil]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirements"]["required_1"]["global_addon_name"] = "addons\\space_marine_hq_addon_1.lua"
+GameData["requirements"]["required_2"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_2"]["is_display_requirement"] = true
 GameData["requirements"]["required_2"]["structure_name"] = "space_marine_barracks"
 GameData["time_cost"]["cost"]["power"] = 75.00000

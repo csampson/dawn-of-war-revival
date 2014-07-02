@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research.lua]])
+MetaData = InheritMeta([[research\ork_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint2.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "ork_nob"
+GameData["requirements"]["required_1"] = Reference([[requirements\required_total_pop.lua]])
 GameData["requirements"]["required_1"]["population_required"] = 65.00000
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true

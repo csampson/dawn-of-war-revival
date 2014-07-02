@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research.lua]])
+MetaData = InheritMeta([[research\ork_research.lua]])
+
+GameData["time_cost"]["cost"]["requisition"] = 50.00000
+GameData["time_cost"]["time_seconds"] = 25.00000
+GameData["ui_hotkey_name"] = "ork_research_grot_infiltration"
 GameData["ui_index_hint"] = 5.00000
 GameData["ui_info"]["help_text_id"] = "$96091"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$96092"

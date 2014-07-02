@@ -1,3 +1,9 @@
+GameData = Inherit([[research\dark_eldar_upgrade_vehicle_armor.lua]])
+MetaData = InheritMeta([[research\dark_eldar_upgrade_vehicle_armor.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\required_none.lua]])
+GameData["requirements"]["required_10"] = Reference([[requirements\required_none.lua]])
+GameData["requirements"]["required_11"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_11"]["research_name"] = "research\\dark_eldar_upgrade_vehicle_armor.lua"
 GameData["requirements"]["required_3"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_3"]["is_display_requirement"] = true

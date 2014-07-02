@@ -1,3 +1,9 @@
+GameData = Inherit([[research\eldar_research_infantryaccuracy_1.lua]])
+MetaData = InheritMeta([[research\eldar_research_infantryaccuracy_1.lua]])
+
+GameData["modifiers"]["modifier_02"]["value"] = 1.40000
+GameData["modifiers"]["modifier_03"]["value"] = 2.00000
+GameData["modifiers"]["modifier_05"]["value"] = 1.20000
 GameData["modifiers"]["modifier_07"]["value"] = 1.40000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_1"]["research_name"] = "eldar_research_infantryaccuracy_1"

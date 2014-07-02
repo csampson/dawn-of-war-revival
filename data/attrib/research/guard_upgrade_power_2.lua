@@ -1,3 +1,9 @@
+GameData = Inherit([[research\guard_upgrade_power_1.lua]])
+MetaData = InheritMeta([[research\guard_upgrade_power_1.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_1"]["research_name"] = "research\\guard_upgrade_power_1.lua"
+GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["research_name"] = "research\\guard_upgrade_power_1.lua"
 GameData["requirements"]["required_11"] = Reference([[requirements\global_required_addon.lua]])

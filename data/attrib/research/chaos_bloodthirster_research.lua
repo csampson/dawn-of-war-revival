@@ -1,3 +1,9 @@
+GameData = Inherit([[research\chaos_research.lua]])
+MetaData = InheritMeta([[research\chaos_research.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\required_squad.lua]])
+GameData["requirements"]["required_1"]["min_count"] = 0.00000
+GameData["requirements"]["required_1"]["squad_name"] = "chaos_squad_bloodthirster"
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["structure_name"] = "chaos_hq"

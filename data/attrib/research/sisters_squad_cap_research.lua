@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_research.nil]])
+MetaData = InheritMeta([[research\sisters_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\squad_cap_player_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["value"] = 3.00000
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\reinforce_time2_player_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_multiplication.lua]])
 GameData["modifiers"]["modifier_02"]["value"] = 0.88000
 GameData["time_cost"]["cost"]["requisition"] = 140.00000

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\eldar_research.nil]])
+MetaData = InheritMeta([[research\eldar_research.nil]])
+
+GameData["time_cost"]["cost"]["power"] = 75.00000
+GameData["time_cost"]["cost"]["requisition"] = 75.00000
+GameData["time_cost"]["time_seconds"] = 25.00000
 GameData["ui_hotkey_name"] = "eldar_ranger_infiltration_research"
 GameData["ui_index_hint"] = 9.00000
 GameData["ui_info"]["help_text_id"] = "$96411"

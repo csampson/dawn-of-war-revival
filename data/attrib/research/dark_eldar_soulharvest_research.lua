@@ -1,3 +1,9 @@
+GameData = Inherit([[research\research.nil]])
+MetaData = InheritMeta([[research\research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\cannibalize_souls_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["value"] = 2.00000
+GameData["time_cost"]["cost"]["power"] = 200.00000
 GameData["time_cost"]["cost"]["requisition"] = 100.00000
 GameData["time_cost"]["time_seconds"] = 50.00000
 GameData["ui_hotkey_name"] = "dark_eldar_research_soulharvest"
