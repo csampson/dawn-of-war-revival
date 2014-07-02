@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research_grot_infiltrate.lua]])
+MetaData = InheritMeta([[research\ork_research_grot_infiltrate.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_1"]["is_display_requirement"] = true
+GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\orks\\structures\\ork_hq.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["structure_name"] = "ebps\\races\\orks\\structures\\ork_pile_o_guns.lua"
 GameData["requirements"]["required_11"] = Reference([[requirements\required_total_pop.lua]])

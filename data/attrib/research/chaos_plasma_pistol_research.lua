@@ -1,3 +1,9 @@
+GameData = Inherit([[research\chaos_research.lua]])
+MetaData = InheritMeta([[research\chaos_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "chaos_aspiring_champion"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "chaos_lord"
 GameData["modifiers"]["modifier_03"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
 GameData["modifiers"]["modifier_03"]["target_type_name"] = "chaos_sorcerer"

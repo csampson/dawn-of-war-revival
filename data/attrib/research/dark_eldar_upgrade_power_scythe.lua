@@ -1,3 +1,9 @@
+GameData = Inherit([[research\dark_eldar_research.lua]])
+MetaData = InheritMeta([[research\dark_eldar_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint2.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "dark_eldar_leader_archon"
+GameData["modifiers"]["modifier_03"] = Reference([[modifiers\default_weapon_modifier_hardpoint2.lua]])
 GameData["modifiers"]["modifier_03"]["target_type_name"] = "dark_eldar_infantry_hellion_leader"
 GameData["modifiers"]["modifier_05"] = Reference([[modifiers\default_weapon_modifier_hardpoint2.lua]])
 GameData["modifiers"]["modifier_05"]["target_type_name"] = "dark_eldar_infantry_warrior_leader"

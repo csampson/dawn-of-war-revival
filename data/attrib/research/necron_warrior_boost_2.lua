@@ -1,3 +1,9 @@
+GameData = Inherit([[research\necron_warrior_boost.lua]])
+MetaData = InheritMeta([[research\necron_warrior_boost.lua]])
+
+GameData["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_multiplication.lua]])
+GameData["modifiers"]["modifier_01"]["value"] = 1.50000
+GameData["modifiers"]["modifier_02"]["value"] = 1.35000
 GameData["modifiers"]["modifier_03"]["value"] = 1.35000
 GameData["modifiers"]["modifier_04"] = Reference([[modifiers\ability_speed_fiend_event.lua]])
 GameData["modifiers"]["modifier_04"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])

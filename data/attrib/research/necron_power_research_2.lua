@@ -1,3 +1,9 @@
+GameData = Inherit([[research\necron_power_research.lua]])
+MetaData = InheritMeta([[research\necron_power_research.lua]])
+
+GameData["modifiers"]["modifier_01"]["value"] = 1.20000
+GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_1"]["is_display_requirement"] = true
 GameData["requirements"]["required_1"]["research_name"] = "research\\necron_power_research.lua"
 GameData["requirements"]["required_10"]["global_addon_name"] = "addons\\addon_necron_hq_2.lua"
 GameData["requirements"]["required_11"] = Reference([[requirements\required_research.lua]])

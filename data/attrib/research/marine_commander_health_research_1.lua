@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_health_upgrade_research.lua]])
+MetaData = InheritMeta([[research\marine_health_upgrade_research.lua]])
+
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "force_commander"
+GameData["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
+GameData["modifiers"]["modifier_01"]["value"] = 400.00000
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "librarian"
 GameData["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifiers"]["modifier_02"]["value"] = 300.00000

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_research.nil]])
+MetaData = InheritMeta([[research\marine_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\enable_infiltration.lua]])
+GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "scout_marine"
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\space_marines\\structures\\space_marine_armoury.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])

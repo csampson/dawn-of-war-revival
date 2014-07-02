@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_research.nil]])
+MetaData = InheritMeta([[research\marine_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\max_upgrades_squad_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "space_marine_squad_tactical"
+GameData["modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\max_upgrades_squad_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "space_marine_squad_scout"
 GameData["modifiers"]["modifier_02"]["value"] = 2.00000

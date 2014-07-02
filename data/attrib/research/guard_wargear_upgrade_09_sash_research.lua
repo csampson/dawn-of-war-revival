@@ -1,3 +1,9 @@
+GameData = Inherit([[research\guard_wargear_upgrade_research.lua]])
+MetaData = InheritMeta([[research\guard_wargear_upgrade_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint3.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "guard_leaders_captain_advance_sp"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\morale_maximum_squad_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad_type.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "guard_squad_guardsmen"
 GameData["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_research.nil]])
+MetaData = InheritMeta([[research\sisters_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "sisters_canoness"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "sisters_veteran_superior"
 GameData["modifiers"]["modifier_03"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
 GameData["modifiers"]["modifier_03"]["target_type_name"] = "sisters_veteran_superior_seraphim"

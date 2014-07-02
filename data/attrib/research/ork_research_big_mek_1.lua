@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research.lua]])
+MetaData = InheritMeta([[research\ork_research.lua]])
+
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\keen_sight_radius_modifier.lua]])
+GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
+GameData["modifiers"]["modifier_02"]["target_type_name"] = "ork_mek_boy"
 GameData["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifiers"]["modifier_02"]["value"] = 10.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_total_pop.lua]])

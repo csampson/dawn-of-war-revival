@@ -1,3 +1,9 @@
+GameData = Inherit([[research\necron_research.nil]])
+MetaData = InheritMeta([[research\necron_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint3.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "necron_lord"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\default_weapon_modifier_hardpoint3.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "necron_lord_advance_sp"
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["is_display_requirement"] = true

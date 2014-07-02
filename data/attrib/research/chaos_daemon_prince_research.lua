@@ -1,3 +1,9 @@
+GameData = Inherit([[research\chaos_bloodthirster_research.lua]])
+MetaData = InheritMeta([[research\chaos_bloodthirster_research.lua]])
+
+GameData["requirements"]["required_1"]["squad_name"] = "sbps\\races\\chaos\\chaos_squad_daemon_prince.lua"
+GameData["requirements"]["required_11"] = Reference([[requirements\required_human_player_metamap_game.lua]])
+GameData["requirements"]["required_11"]["is_display_requirement"] = false
 GameData["requirements"]["required_11"]["is_human_player_in_a_metamap_game"] = false
 GameData["requirements"]["required_2"] = Reference([[requirements\required_none.lua]])
 GameData["requirements"]["required_3"] = Reference([[requirements\required_none.lua]])

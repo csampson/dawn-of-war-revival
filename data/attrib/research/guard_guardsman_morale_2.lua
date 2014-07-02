@@ -1,3 +1,9 @@
+GameData = Inherit([[research\guard_guardsman_morale.lua]])
+MetaData = InheritMeta([[research\guard_guardsman_morale.lua]])
+
+GameData["modifiers"]["modifier_01"]["value"] = 150.00000
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+GameData["modifiers"]["modifier_03"]["value"] = 25.00000
 GameData["modifiers"]["modifier_04"]["value"] = 150.00000
 GameData["modifiers"]["modifier_05"] = Reference([[modifiers\no_modifier.lua]])
 GameData["modifiers"]["modifier_06"]["value"] = 50.00000

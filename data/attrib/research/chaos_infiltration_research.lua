@@ -1,3 +1,9 @@
+GameData = Inherit([[research\chaos_research.lua]])
+MetaData = InheritMeta([[research\chaos_research.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_1"]["is_display_requirement"] = true
+GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_hq.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\global_required_addon.lua]])
 GameData["requirements"]["required_10"]["global_addon_name"] = "addons\\chaos_hq_addon_1.lua"
 GameData["time_cost"]["cost"]["power"] = 75.00000

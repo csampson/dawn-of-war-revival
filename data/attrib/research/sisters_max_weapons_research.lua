@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_research.nil]])
+MetaData = InheritMeta([[research\sisters_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\max_upgrades_squad_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "sisters_squad_battle_sister"
+GameData["modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\max_upgrades_squad_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "sisters_squad_seraphim"
 GameData["modifiers"]["modifier_02"]["value"] = 2.00000

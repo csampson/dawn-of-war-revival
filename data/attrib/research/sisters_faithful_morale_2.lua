@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_faithful_morale.lua]])
+MetaData = InheritMeta([[research\sisters_faithful_morale.lua]])
+
+GameData["modifiers"]["modifier_11"]["value"] = 1.20000
+GameData["requirements"]["required_1"]["is_display_requirement"] = false
+GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\sisters\\structures\\sisters_shrine.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_10"]["research_name"] = "research\\sisters_faithful_morale.lua"
 GameData["requirements"]["required_11"] = Reference([[requirements\required_research.lua]])

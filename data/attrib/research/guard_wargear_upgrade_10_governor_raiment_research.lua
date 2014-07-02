@@ -1,3 +1,9 @@
+GameData = Inherit([[research\guard_wargear_upgrade_research.lua]])
+MetaData = InheritMeta([[research\guard_wargear_upgrade_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint8.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "guard_leaders_captain_advance_sp"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\max_squad_cap_player_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["modifiers"]["modifier_03"] = Reference([[modifiers\max_support_cap_player_modifier.lua]])
 GameData["modifiers"]["modifier_03"]["value"] = 2.00000

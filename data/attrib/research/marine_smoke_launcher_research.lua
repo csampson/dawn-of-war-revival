@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_research.nil]])
+MetaData = InheritMeta([[research\marine_research.nil]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_1"]["structure_name"] = "space_marine_armoury"
+GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["structure_name"] = "space_marine_vehicle_building"
 GameData["time_cost"]["cost"]["power"] = 25.00000

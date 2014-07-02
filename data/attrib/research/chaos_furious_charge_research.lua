@@ -1,3 +1,9 @@
+GameData = Inherit([[research\chaos_research.lua]])
+MetaData = InheritMeta([[research\chaos_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "chaos_knife_tactical"
+GameData["modifiers"]["modifier_01"]["value"] = 1.25000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\min_damage_weapon_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "chaos_knife_tactical"
 GameData["modifiers"]["modifier_02"]["value"] = 1.25000

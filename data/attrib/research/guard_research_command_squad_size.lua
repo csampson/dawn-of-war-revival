@@ -1,3 +1,9 @@
+GameData = Inherit([[research\guard_research.nil]])
+MetaData = InheritMeta([[research\guard_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\max_leaders_squad_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "guard_squad_command_squad"
+GameData["modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\health_maximum_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "guard_leaders_captain"

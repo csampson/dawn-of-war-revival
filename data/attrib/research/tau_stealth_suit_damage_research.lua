@@ -1,3 +1,9 @@
+GameData = Inherit([[research\tau_research.nil]])
+MetaData = InheritMeta([[research\tau_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\min_damage_weapon_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "tau_burst_cannon_stealth_team"
+GameData["modifiers"]["modifier_01"]["value"] = 3.00000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "tau_burst_cannon_stealth_team"
 GameData["modifiers"]["modifier_02"]["value"] = 3.00000

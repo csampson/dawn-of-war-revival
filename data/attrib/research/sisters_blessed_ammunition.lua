@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_research.nil]])
+MetaData = InheritMeta([[research\sisters_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\cover_damage_bonus_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "sisters_bolter_battle_sister"
+GameData["modifiers"]["modifier_01"]["value"] = 1.50000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\cover_damage_bonus_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "sisters_bolter_celestian"
 GameData["modifiers"]["modifier_02"]["value"] = 1.50000

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\dark_eldar_research.lua]])
+MetaData = InheritMeta([[research\dark_eldar_research.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirements"]["required_1"]["global_addon_name"] = "addons\\addon_dark_eldar_hq_1.lua"
+GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["structure_name"] = "ebps\\races\\dark_eldar\\structures\\dark_eldar_skimmer_shop.lua"
 GameData["time_cost"]["cost"]["power"] = 25.00000

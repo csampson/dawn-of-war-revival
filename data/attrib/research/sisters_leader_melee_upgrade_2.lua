@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_leader_melee_upgrade_1.lua]])
+MetaData = InheritMeta([[research\sisters_leader_melee_upgrade_1.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\min_damage_weapon_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "sisters_brazier_of_holy_fire"
+GameData["modifiers"]["modifier_01"]["value"] = 1.20000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "sisters_brazier_of_holy_fire"
 GameData["modifiers"]["modifier_02"]["value"] = 1.20000

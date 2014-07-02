@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_research.nil]])
+MetaData = InheritMeta([[research\marine_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "space_marine_bolter_tactical"
+GameData["modifiers"]["modifier_01"]["value"] = 1.12000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "space_marine_plasma_gun"
 GameData["modifiers"]["modifier_02"]["value"] = 1.23000

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_librarian_research_1.lua]])
+MetaData = InheritMeta([[research\marine_librarian_research_1.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\required_none.lua]])
+GameData["requirements"]["required_10"] = Reference([[requirements\required_none.lua]])
+GameData["requirements"]["required_2"] = Reference([[requirements\global_required_addon.lua]])
 GameData["requirements"]["required_2"]["global_addon_name"] = "addons\\space_marine_hq_addon_1.lua"
 GameData["time_cost"]["cost"]["power"] = 50.00000
 GameData["time_cost"]["cost"]["requisition"] = 40.00000

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\tau_research.nil]])
+MetaData = InheritMeta([[research\tau_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint4.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "tau_commander"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\speed_maximum_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "tau_commander"
 GameData["modifiers"]["modifier_02"]["value"] = 1.25000

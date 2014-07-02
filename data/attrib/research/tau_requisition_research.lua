@@ -1,3 +1,9 @@
+GameData = Inherit([[research\tau_research.nil]])
+MetaData = InheritMeta([[research\tau_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\income_requisition_player_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["value"] = 1.15000
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["is_display_requirement"] = true
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\tau\\structures\\tau_hq.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])

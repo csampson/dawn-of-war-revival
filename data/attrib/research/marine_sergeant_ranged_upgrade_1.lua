@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_research.nil]])
+MetaData = InheritMeta([[research\marine_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "sergeant"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "librarian"
 GameData["modifiers"]["modifier_03"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
 GameData["modifiers"]["modifier_03"]["target_type_name"] = "force_commander"

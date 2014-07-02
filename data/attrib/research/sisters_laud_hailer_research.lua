@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_research.nil]])
+MetaData = InheritMeta([[research\sisters_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
+GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_structure_type.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "sisters_hq"
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
 GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_structure_type.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "sisters_holy_reliquary"

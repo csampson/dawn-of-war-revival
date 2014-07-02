@@ -1,3 +1,9 @@
+GameData = Inherit([[research\tau_research.nil]])
+MetaData = InheritMeta([[research\tau_research.nil]])
+
+GameData["time_cost"]["cost"]["power"] = 450.00000
+GameData["time_cost"]["cost"]["requisition"] = 450.00000
+GameData["time_cost"]["time_seconds"] = 100.00000
 GameData["ui_hotkey_name"] = "tau_teachings_of_kauyon"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$665557"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$665556"

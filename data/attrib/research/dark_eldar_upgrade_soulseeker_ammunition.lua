@@ -1,3 +1,9 @@
+GameData = Inherit([[research\dark_eldar_research.lua]])
+MetaData = InheritMeta([[research\dark_eldar_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\accuracy_ranged_weapon_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "dark_eldar_destructor_haemonculus"
+GameData["modifiers"]["modifier_01"]["value"] = 1.30000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\accuracy_ranged_weapon_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "dark_eldar_hellglaive_shooter_hellion"
 GameData["modifiers"]["modifier_02"]["value"] = 1.30000

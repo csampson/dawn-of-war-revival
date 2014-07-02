@@ -1,3 +1,9 @@
+GameData = Inherit([[research\dark_eldar_wargear_upgrade.lua]])
+MetaData = InheritMeta([[research\dark_eldar_wargear_upgrade.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint6.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "dark_eldar_leader_archon_hg_dxp3"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\min_damage_weapon_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "dark_eldar_sword_archon"
 GameData["modifiers"]["modifier_02"]["value"] = 1.50000
 GameData["modifiers"]["modifier_03"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\eldar_research.nil]])
+MetaData = InheritMeta([[research\eldar_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "eldar_warp_spider_exarch"
+GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_1"]["research_name"] = "research\\eldar_tier2_research.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true

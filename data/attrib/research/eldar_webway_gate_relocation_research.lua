@@ -1,3 +1,9 @@
+GameData = Inherit([[research\eldar_research.nil]])
+MetaData = InheritMeta([[research\eldar_research.nil]])
+
+GameData["time_cost"]["cost"]["power"] = 100.00000
+GameData["time_cost"]["cost"]["requisition"] = 100.00000
+GameData["time_cost"]["time_seconds"] = 60.00000
 GameData["ui_hotkey_name"] = "eldar_webway_gate_relocation_research"
 GameData["ui_index_hint"] = 10.00000
 GameData["ui_info"]["help_text_id"] = "$96391"

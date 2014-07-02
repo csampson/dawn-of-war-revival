@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_research.nil]])
+MetaData = InheritMeta([[research\sisters_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\enable_melee_leap.lua]])
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_1"]["is_display_requirement"] = true
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\sisters\\structures\\sisters_hq.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\global_required_addon.lua]])
 GameData["requirements"]["required_10"]["global_addon_name"] = "addons\\addon_sisters_hq_2.lua"

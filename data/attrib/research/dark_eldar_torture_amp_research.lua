@@ -1,3 +1,9 @@
+GameData = Inherit([[research\dark_eldar_research.lua]])
+MetaData = InheritMeta([[research\dark_eldar_research.lua]])
+
+GameData["time_cost"]["cost"]["power"] = 75.00000
+GameData["time_cost"]["cost"]["requisition"] = 40.00000
+GameData["time_cost"]["time_seconds"] = 30.00000
 GameData["ui_hotkey_name"] = "dark_eldar_torture_amp"
 GameData["ui_index_hint"] = 11.00000
 GameData["ui_info"]["help_text_list"]["text_01"] = "$4150111"

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_upgrade_power_1.lua]])
+MetaData = InheritMeta([[research\sisters_upgrade_power_1.lua]])
+
+GameData["modifiers"]["modifier_01"]["value"] = 1.20000
+GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_1"]["research_name"] = "research\\sisters_upgrade_power_1.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["research_name"] = "research\\sisters_upgrade_power_1.lua"

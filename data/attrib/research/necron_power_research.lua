@@ -1,3 +1,9 @@
+GameData = Inherit([[research\necron_research.nil]])
+MetaData = InheritMeta([[research\necron_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\income_power_player_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["value"] = 1.25000
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["is_display_requirement"] = true
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\necrons\\structures\\monolith.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\global_required_addon.lua]])

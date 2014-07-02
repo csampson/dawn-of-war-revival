@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_health_upgrade_research.lua]])
+MetaData = InheritMeta([[research\marine_health_upgrade_research.lua]])
+
+GameData["modifiers"]["modifier_03"]["value"] = 1.19000
+GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_1"]["research_name"] = "marine_health_upgrade_research"
 GameData["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["research_name"] = "marine_health_upgrade_research"

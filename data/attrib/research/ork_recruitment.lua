@@ -1,3 +1,9 @@
+GameData = Inherit([[research\ork_research.lua]])
+MetaData = InheritMeta([[research\ork_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\cost_requisition_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "ork_slugga_boy"
+GameData["modifiers"]["modifier_01"]["value"] = 0.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["is_display_requirement"] = true
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\orks\\structures\\ork_hq.lua"

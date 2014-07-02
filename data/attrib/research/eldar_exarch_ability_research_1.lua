@@ -1,3 +1,9 @@
+GameData = Inherit([[research\eldar_exarch_ability_research.lua]])
+MetaData = InheritMeta([[research\eldar_exarch_ability_research.lua]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "eldar_dark_reaper_exarch"
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
 GameData["modifiers"]["modifier_03"] = Reference([[modifiers\no_modifier.lua]])
 GameData["modifiers"]["modifier_11"] = Reference([[modifiers\no_modifier.lua]])
 GameData["time_cost"]["cost"]["power"] = 50.00000

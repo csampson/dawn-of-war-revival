@@ -1,3 +1,9 @@
+GameData = Inherit([[research\guard_research.nil]])
+MetaData = InheritMeta([[research\guard_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "guard_ripper_gun_melee_ogryn"
+GameData["modifiers"]["modifier_01"]["value"] = 1.25000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\min_damage_weapon_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "guard_ripper_gun_melee_ogryn"
 GameData["modifiers"]["modifier_02"]["value"] = 1.25000

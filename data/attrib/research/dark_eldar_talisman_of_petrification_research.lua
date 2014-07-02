@@ -1,3 +1,9 @@
+GameData = Inherit([[research\dark_eldar_research.lua]])
+MetaData = InheritMeta([[research\dark_eldar_research.lua]])
+
+GameData["time_cost"]["cost"]["souls"] = 50.00000
+GameData["time_cost"]["time_seconds"] = 30.00000
+GameData["ui_hotkey_name"] = "dark_eldar_research_talisman_of_petrification"
 GameData["ui_index_hint"] = 2.00000
 GameData["ui_info"]["help_text_list"]["text_01"] = "$4150047"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$4150048"

@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_research.nil]])
+MetaData = InheritMeta([[research\sisters_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\support_cap_player_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["value"] = 5.00000
+GameData["modifiers"]["modifier_02"] = Reference([[modifiers\cost_time_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "sisters_exorcist_tank"
 GameData["modifiers"]["modifier_02"]["value"] = 0.90000
 GameData["modifiers"]["modifier_03"] = Reference([[modifiers\cost_time_modifier.lua]])

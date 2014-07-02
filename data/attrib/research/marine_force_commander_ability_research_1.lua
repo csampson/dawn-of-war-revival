@@ -1,3 +1,9 @@
+GameData = Inherit([[research\marine_research.nil]])
+MetaData = InheritMeta([[research\marine_research.nil]])
+
+GameData["time_cost"]["cost"]["power"] = 35.00000
+GameData["time_cost"]["cost"]["requisition"] = 80.00000
+GameData["time_cost"]["time_seconds"] = 60.00000
 GameData["ui_hotkey_name"] = "marine_force_commander_research_1"
 GameData["ui_index_hint"] = 9.00000
 GameData["ui_info"]["help_text_id"] = "$95151"

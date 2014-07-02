@@ -1,3 +1,9 @@
+GameData = Inherit([[research\sisters_squad_cap_research.lua]])
+MetaData = InheritMeta([[research\sisters_squad_cap_research.lua]])
+
+GameData["requirements"]["required_11"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_11"]["research_name"] = "research\\sisters_squad_cap_research_2.lua"
+GameData["requirements"]["required_2"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_2"]["is_display_requirement"] = true
 GameData["requirements"]["required_2"]["research_name"] = "research\\sisters_squad_cap_research_2.lua"
 GameData["ui_info"]["help_text_list"]["text_03"] = "$4350137"

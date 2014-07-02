@@ -1,3 +1,9 @@
+GameData = Inherit([[research\necron_research.nil]])
+MetaData = InheritMeta([[research\necron_research.nil]])
+
+GameData["modifiers"]["modifier_01"] = Reference([[modifiers\speed_maximum_modifier.lua]])
+GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
+GameData["modifiers"]["modifier_01"]["target_type_name"] = "necron_wraith"
 GameData["modifiers"]["modifier_01"]["value"] = 1.25000
 GameData["modifiers"]["modifier_03"] = Reference([[modifiers\speed_maximum_modifier.lua]])
 GameData["modifiers"]["modifier_03"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])

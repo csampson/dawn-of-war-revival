@@ -1,3 +1,9 @@
+GameData = Inherit([[research\dark_eldar_research.lua]])
+MetaData = InheritMeta([[research\dark_eldar_research.lua]])
+
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_1"]["is_display_requirement"] = true
+GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\dark_eldar\\structures\\dark_eldar_wych_cult_arena.lua"
 GameData["time_cost"]["cost"]["power"] = 100.00000
 GameData["time_cost"]["cost"]["requisition"] = 50.00000
 GameData["time_cost"]["time_seconds"] = 40.00000
