@@ -31,7 +31,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\space_marine_knife_tactical.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 47.50000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 6.60000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Space_Marine"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/space_marine_tactical"
 GameData["event_manager_ext"]["event_08"]["event_entry_01"]["event_name"] = "Space_Marines\\Upgrade_02"
 GameData["event_manager_ext"]["event_10"]["event_entry_01"]["event_name"] = "Space_Marines\\Upgrade_01"
 GameData["health_ext"]["death_event"] = "data:/art/events/unit_death_events/sink_into_ground.events"

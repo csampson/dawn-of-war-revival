@@ -3,8 +3,8 @@ MetaData = InheritMeta([[weapon\space_marine_plasma_variants.lua]])
 
 GameData["accuracy"] = 0.80000
 GameData["accuracy_reduction_when_moving"] = 0.65000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 90
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 70
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 95
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 75
 GameData["cost"]["cost"]["power"] = 15.00000
 GameData["cost"]["cost"]["requisition"] = 40.00000
 GameData["cost"]["time_seconds"] = 15.00000
