@@ -1,7 +1,6 @@
 GameData = Inherit([[weapon\space_marine_plasma_variants.lua]])
 MetaData = InheritMeta([[weapon\space_marine_plasma_variants.lua]])
 
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_15"]["armour_piercing_value"] = 2.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage_value"] = 5.00000
 GameData["reload_time"] = 1.00000
 GameData["requirements"] = Reference([[tables\requirements.lua]])
