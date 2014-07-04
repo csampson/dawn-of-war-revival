@@ -1,1 +1,8 @@
+# media resources
+data/art
+data/sound
+data/soundscripts
+
+# compiled data files
 *.rgd
+
