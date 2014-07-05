@@ -3,12 +3,12 @@ MetaData = InheritMeta([[weapon\space_marine_plasma_variants.lua]])
 
 GameData["accuracy"] = 0.80000
 GameData["accuracy_reduction_when_moving"] = 0.65000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 95
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 75
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 142.5
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 112.5
 GameData["cost"]["cost"]["power"] = 15.00000
 GameData["cost"]["cost"]["requisition"] = 40.00000
 GameData["cost"]["time_seconds"] = 15.00000
-GameData["reload_time"] = 1
+GameData["reload_time"] = 1.5
 GameData["requirements"] = Reference([[tables\requirements.lua]])
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\space_marines\\structures\\space_marine_armoury.lua"
