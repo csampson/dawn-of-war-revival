@@ -3,11 +3,11 @@ MetaData = InheritMeta([[weapon\space_marine_shooting_weapons.nil]])
 
 GameData["accuracy_reduction_when_moving"] = 0.50000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_01"]["armour_type"] = Reference([[type_armour\tp_infantry_low.lua]])
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_01"]["armour_piercing_value"] = 60
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_01"]["armour_piercing_value"] = 40
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_02"]["armour_type"] = Reference([[type_armour\tp_infantry_med.lua]])
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_02"]["armour_piercing_value"] = 40
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_02"]["armour_piercing_value"] = 30
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_03"]["armour_type"] = Reference([[type_armour\tp_infantry_high.lua]])
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_03"]["armour_piercing_value"] = 30
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_03"]["armour_piercing_value"] = 20
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_04"]["armour_type"] = Reference([[type_armour\tp_infantry_heavy_med.lua]])
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_04"]["armour_piercing_value"] = 65
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_05"]["armour_type"] = Reference([[type_armour\tp_infantry_heavy_high.lua]])
@@ -49,8 +49,6 @@ GameData["ui_info"]["help_text_id"] = "$98101"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$98800"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$98101"
 GameData["ui_info"]["help_text_list"]["text_03"] = "$98102"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$98103"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$98191"
 GameData["ui_info"]["icon_name"] = "space_marine_icons/upgrade_plasma_gun"
 GameData["ui_info"]["screen_name_id"] = "$98100"
 
