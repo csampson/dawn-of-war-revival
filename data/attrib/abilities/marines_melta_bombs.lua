@@ -24,8 +24,8 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_05"]["armour_type"] = Reference([[type_armour\tp_building_med.lua]])
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_06"]["armour_piercing_value"] = 50.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_06"]["armour_type"] = Reference([[type_armour\tp_building_high.lua]])
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 900.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 800.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 700
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 600
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_ability_fx/Melta_Bomb_Explosion"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "unit_ability_fx/Melta_Bomb_Explosion"
 GameData["duration_time"] = 1.00000
