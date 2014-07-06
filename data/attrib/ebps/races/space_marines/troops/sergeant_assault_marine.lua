@@ -10,7 +10,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"
 GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_02"]["value"] = 1.00000
 GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_02"]["value"] = 1.00000
 GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_02"]["value"] = 1.00000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Assault_Marine_Sergeant"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/space_marine_vanguard_assault"
 GameData["moving_ext"]["speed_max"] = 24.00000
 GameData["ui_ext"]["ui_info"]["help_text_id"] = "$97191"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$97192"
