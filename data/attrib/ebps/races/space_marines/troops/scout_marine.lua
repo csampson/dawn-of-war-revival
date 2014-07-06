@@ -1,6 +1,8 @@
 GameData = Inherit([[ebps\races\space_marines\troops\space_marine_soldier.nil]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\space_marine_soldier.nil]])
 
+GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
+GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\marines_blind_grenades.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["horizontal_aim_motion_variable_name"] = "Aim_Horizontal_Main"
@@ -24,7 +26,7 @@ GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_01"]["value"] = 0.60
 GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_02"]["value"] = 1.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/scout_codex"
 GameData["health_ext"]["death_event"] = "data:/art/events/unit_death_events/sink_into_ground.events"
-GameData["health_ext"]["hitpoints"] = 295.00000
+GameData["health_ext"]["hitpoints"] = 300
 GameData["health_ext"]["morale_death"] = 40.00000
 GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
 GameData["moving_ext"]["speed_max"] = 20.00000
