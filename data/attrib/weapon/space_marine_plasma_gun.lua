@@ -1,7 +1,7 @@
 GameData = Inherit([[weapon\space_marine_plasma_variants.lua]])
 MetaData = InheritMeta([[weapon\space_marine_plasma_variants.lua]])
 
-GameData["accuracy"] = 0.80000
+GameData["accuracy"] = 0.75
 GameData["accuracy_reduction_when_moving"] = 0.65000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 142.5
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 112.5
@@ -14,6 +14,8 @@ GameData["requirements"]["required_1"] = Reference([[requirements\required_struc
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\space_marines\\structures\\space_marine_armoury.lua"
 GameData["requirements"]["required_2"] = Reference([[requirements\global_required_addon.lua]])
 GameData["requirements"]["required_2"]["global_addon_name"] = "addons\\space_marine_hq_addon_1.lua"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$98103"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$98191"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
