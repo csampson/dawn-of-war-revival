@@ -43,7 +43,7 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]
 GameData["cost"]["cost"]["power"] = 15
 GameData["cost"]["cost"]["requisition"] = 45
 GameData["cost"]["time_seconds"] = 15
-GameData["max_range"] = 20
+GameData["max_range"] = 25
 GameData["reload_time"] = 3
 GameData["requirements"] = Reference([[tables\requirements.lua]])
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
