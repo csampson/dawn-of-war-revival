@@ -19,6 +19,8 @@ GameData["modifiers"]["modifier_07"]["value"] = 1.20000
 GameData["modifiers"]["modifier_08"] = Reference([[modifiers\min_damage_weapon_modifier.lua]])
 GameData["modifiers"]["modifier_08"]["target_type_name"] = "space_marine_force_weapon"
 GameData["modifiers"]["modifier_08"]["value"] = 1.20000
+GameData["modifiers"]["modifier_09"] = Reference([[modifiers\default_weapon_modifier_hardpoint2.lua]])
+GameData["modifiers"]["modifier_09"]["target_type_name"] = "sergeant_vanguard_veteran"
 GameData["requirements"]["required_1"] = Reference([[requirements\required_none.lua]])
 GameData["requirements"]["required_11"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_11"]["research_name"] = "research\\marine_sergeant_melee_upgrade_1.lua"
@@ -32,6 +34,7 @@ GameData["ui_info"]["help_text_list"]["text_03"] = "$702661"
 GameData["ui_info"]["help_text_list"]["text_04"] = "$702660"
 GameData["ui_info"]["help_text_list"]["text_05"] = "$702659"
 GameData["ui_info"]["help_text_list"]["text_06"] = "$702658"
+GameData["ui_info"]["help_text_list"]["text_07"] = "- Upgrades Vanguard Veteran Sergeants to relic blades, large power swords capable of cleaving through most personal armor."
 GameData["ui_info"]["icon_name"] = "space_marine_icons/sergeant_melee_research_2"
 GameData["ui_info"]["screen_name_id"] = "$95260"
 

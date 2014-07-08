@@ -12,12 +12,12 @@ GameData["time_cost"]["cost"]["requisition"] = 75.00000
 GameData["time_cost"]["time_seconds"] = 20.00000
 GameData["ui_hotkey_name"] = "marine_furious_charge_research"
 GameData["ui_index_hint"] = 2.00000
-GameData["ui_info"]["help_text_list"]["text_01"] = "$674650"
+GameData["ui_info"]["help_text_list"]["text_01"] = "- Enables Grey Knights and Vanguard Veterans the ability to use psychic powers or jump packs to brutally close the distance to the enemy."
 GameData["ui_info"]["help_text_list"]["text_02"] = "$674655"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$674654"
+GameData["ui_info"]["help_text_list"]["text_03"] = "- Hammer of Wrath works only when these units are in Assault Stance."
 GameData["ui_info"]["help_text_list"]["text_04"] = "$674657"
 GameData["ui_info"]["icon_name"] = "space_marine_icons/marines_quickening_research_icon"
-GameData["ui_info"]["screen_name_id"] = "$674656"
+GameData["ui_info"]["screen_name_id"] = "Hammer of Wrath"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 674650, rangeEnd = 674699, }

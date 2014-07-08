@@ -78,7 +78,8 @@ GameData["ui_index_hint"] = 5.00000
 GameData["ui_info"]["help_text_id"] = "$95041"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$701700"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$701701"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$701703"
+GameData["ui_info"]["help_text_list"]["text_03"] = "- Also increases the health of Vanguard Veterans."
+GameData["ui_info"]["help_text_list"]["text_04"] = "$701703"
 GameData["ui_info"]["icon_name"] = "space_marine_icons/marine_health_research_1_icon"
 GameData["ui_info"]["screen_name_id"] = "$701702"
 

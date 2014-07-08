@@ -33,11 +33,11 @@ Space Marines
 
 ### Devastators
 
-~ Long-range fire support specialists that can equip a variety of heavy weapons
-~ Small 5-man squad (plus a sergeant)
-~ Initially equipped with heavy bolters
-~ Can upgrade to lascannons (anti-armor) and plasma cannons (anti- heavy-infantry and lighter armor, with splash damage)
-~ Compared to Tactical Marines, they're slower, not as capable in melee combat, all of their weapons have setup times, and their small squad size means they're less durable but they're capable of bringing a serious amount of firepower to bear.
+- Long-range fire support specialists that can equip a variety of heavy weapons
+- Small 5-man squad (plus a sergeant)
+- Initially equipped with heavy bolters
+- Can upgrade to lascannons (anti-armor) and plasma cannons (anti- heavy-infantry and lighter armor, with splash damage)
+- Compared to Tactical Marines, they're slower, not as capable in melee combat, all of their weapons have setup times, and their small squad size means they're less durable but they're capable of bringing a serious amount of firepower to bear.
 
 ### Assault Marines
 
@@ -47,3 +47,10 @@ Space Marines
 - Reduced morale to be in line with Tactical Marines (initially 300, +100 from health research 1, +100 from health research 2, +100 with a sergeant)
 - Mild reduction in Melta Bombs damage
 - Increased Sergeant's plasma pistol damage to be in line with his Tactical Marine counter-part (so, higher damage)
+
+### Vanguard Veterans
+
+- Elite close-combat veterans, equipped with power swords, bolt pistols, and jump packs
+- Can replace their power sword with either a power fist or lightning claw (the former dealing more damage against vehicles, the latter more effective against infantry)
+- Can deep-strike from the Chapter-Barracks
+- Players can field only one of the following: Grey Knights, Vanguard Veterans -- these guys are overall balanced in similar way to Grey Knights, being very deadly but limited to a small squad

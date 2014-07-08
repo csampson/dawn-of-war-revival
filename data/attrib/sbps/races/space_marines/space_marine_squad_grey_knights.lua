@@ -33,6 +33,9 @@ GameData["squad_requirement_ext"]["requirements"]["required_10"]["structure_name
 GameData["squad_requirement_ext"]["requirements"]["required_11"] = Reference([[requirements\required_squad_cap.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_2"] = Reference([[requirements\required_structure.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["structure_name"] = "ebps\\races\\space_marines\\structures\\space_marine_ability_building.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_12"] = Reference([[requirements\required_cumulative_squad_cap.lua]])
+GameData["squad_requirement_ext"]["requirements"]["required_12"]["max_cumulative_squad_cap"] = 1
+GameData["squad_requirement_ext"]["requirements"]["required_12"]["squad_table"]["squad_01"] = [[space_marine_squad_vanguard_veteran.lua]]
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
 GameData["squad_transportable_ext"]["nr_spots"] = 2.00000
 GameData["squad_ui_ext"]["multi_select_priority"] = 3.00000
@@ -40,6 +43,7 @@ GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$672406"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$672402"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$672404"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$672405"
+GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "- You may field only one squad amongst these elite warriors: Grey Knights, Vanguard Veterans"
 GameData["squad_ui_ext"]["ui_info"]["icon_name"] = "space_marine_icons/space_marine_icon_grey_knights"
 GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$672403"
 
