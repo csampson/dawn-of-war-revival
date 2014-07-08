@@ -10,8 +10,8 @@ GameData["area_effect"]["area_effect_information"]["area_effect_events"]["water"
 GameData["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
 GameData["area_effect"]["area_effect_information"]["filter_type"] = Reference([[type_areafilter\tp_area_filter_enemy.lua]])
 GameData["area_effect"]["area_effect_information"]["radius"] = 4.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 480
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 444
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 472
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 440
 GameData["cost"]["cost"]["power"] = 20
 GameData["cost"]["cost"]["requisition"] = 50
 GameData["cost"]["time_seconds"] = 15
