@@ -22,6 +22,7 @@ GameData["miss_events"]["grass"] = "Ground_impact/Bolter_Medium_Miss_Grass"
 GameData["miss_events"]["rock"] = "Ground_impact/Bolter_Medium_Miss_Rock"
 GameData["miss_events"]["water"] = "Ground_impact/Bolter_Medium_Miss_Water"
 GameData["reload_time"] = 0.5
+GameData["stationary_horizontal_multiplier"] = 1
 GameData["ui_effective_against"]["text_01"] = "$90104"
 GameData["ui_info"]["help_text_id"] = "$98041"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$98800"
