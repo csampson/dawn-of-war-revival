@@ -13,6 +13,7 @@ GameData["cost"]["time_seconds"] = 15
 GameData["max_range"] = 40
 GameData["reload_time"] = 3
 GameData["requirements"] = nil
+GameData["setup_time"] = 2
 GameData["ui_hotkey_name"] = "marine_lascannon_twin"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$690204"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$98071"
