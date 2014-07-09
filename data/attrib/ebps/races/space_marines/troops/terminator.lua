@@ -17,7 +17,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["cost_ext"]["time_cost"]["cost"]["power"] = 25.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 60.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 7.00000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Terminator"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/terminator_codex"
 GameData["health_ext"]["armour_minimum"] = 3.00000
 GameData["health_ext"]["hitpoints"] = 665.00000
 GameData["health_ext"]["morale_death"] = 40.00000
