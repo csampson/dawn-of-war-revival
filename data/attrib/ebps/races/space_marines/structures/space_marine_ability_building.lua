@@ -25,6 +25,7 @@ GameData["research_ext"]["research_table"]["research_05"] = "research\\marine_co
 GameData["research_ext"]["research_table"]["research_06"] = "research\\marine_commander_health_research_1_advance_sp.lua"
 GameData["research_ext"]["research_table"]["research_07"] = "research\\marine_commander_health_research_2.lua"
 GameData["research_ext"]["research_table"]["research_08"] = "research\\marine_commander_health_research_2_advance_sp.lua"
+GameData["research_ext"]["research_table"]["research_09"] = "research\\marine_chaplain_jump_pack_research.lua"
 GameData["sight_ext"]["sight_radius"] = 15.00000
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 GameData["spawner_ext"]["squad_table"]["squad_01"] = "sbps\\races\\space_marines\\space_marine_squad_apothecary.lua"
