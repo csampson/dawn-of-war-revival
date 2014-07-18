@@ -14,7 +14,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["shoot_motion_variable_name
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["vertical_aim_motion_variable_name"] = "Aim_Vertical_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "space_marines_bolt_pistol"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\space_marine_bolt_pistol_forcecommander.lua"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "space_marines_plasma_pistol"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Space_Marines_Combi_Plasma"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\space_marine_plasma_pistol_commander.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["attack_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Melee_Upgrade_Main"
@@ -23,12 +23,12 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["shoot_motion_variable_name
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["vertical_aim_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "space_marines_power_sword"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\space_marine_power_sword_force_commander.lua"
-GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "space_marines_daemon_hammer"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Space_Marines_Thunder_Hammer"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\space_marine_daemon_hammer.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["power"] = 50.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 220.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 57.00000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Force_Commander"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Brother_Captain"
 GameData["health_ext"]["armour"] = 100.00000
 GameData["health_ext"]["armour_minimum"] = 5.00000
 GameData["health_ext"]["death_event"] = "art/events/unit_death_events/sink_into_ground"
