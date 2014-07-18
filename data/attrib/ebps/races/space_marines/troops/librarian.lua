@@ -28,11 +28,11 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"
 GameData["cost_ext"]["time_cost"]["cost"]["power"] = 80.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 245.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 54.00000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Librarian"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Librarian_Codex"
 GameData["health_ext"]["armour"] = 100.00000
 GameData["health_ext"]["armour_minimum"] = 3.00000
 GameData["health_ext"]["display_health_bar"] = true
-GameData["health_ext"]["hitpoints"] = 1400.00000
+GameData["health_ext"]["hitpoints"] = 1200.00000
 GameData["health_ext"]["keep_persistent_body"] = false
 GameData["health_ext"]["morale_death"] = 250.00000
 GameData["health_ext"]["regeneration_rate"] = 2.00000
