@@ -26,8 +26,8 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_13"]["armour_piercing_value"] = 10.66700
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_13"]["armour_type"] = Reference([[type_armour\tp_building_med.lua]])
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_14"]["armour_type"] = Reference([[type_armour\tp_building_high.lua]])
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 31.73100
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 25.96100
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 64
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 42
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage_value"] = 5.00000
 
 
