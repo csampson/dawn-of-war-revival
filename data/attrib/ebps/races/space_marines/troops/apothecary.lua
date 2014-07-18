@@ -31,6 +31,7 @@ GameData["ui_ext"]["ui_hotkey_name"] = "marine_apothecary"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$694000"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$97003"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$97004"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "- Squad has a chance to ignore any received damage."
 GameData["ui_ext"]["ui_info"]["icon_name"] = "space_marine_icons/apothecary_icon"
 GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$97000"
 GameData["ui_ext"]["use_hero_ui"] = true
