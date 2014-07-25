@@ -25,7 +25,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_11"]["armour_type"] = Reference([[type_armour\tp_commander.lua]])
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_11"]["armour_piercing_value"] = 20
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_12"]["armour_type"] = Reference([[type_armour\tp_building_low.lua]])
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_12"]["armour_piercing_value"] = 30
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_12"]["armour_piercing_value"] = 20
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_13"]["armour_type"] = Reference([[type_armour\tp_building_med.lua]])
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_13"]["armour_piercing_value"] = 10
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_14"]["armour_type"] = Reference([[type_armour\tp_building_high.lua]])
@@ -45,7 +45,7 @@ GameData["miss_events"]["dirtsand"] = "Ground_impact/Bolter_Medium_Miss_Dirtsand
 GameData["miss_events"]["grass"] = "Ground_impact/Bolter_Medium_Miss_Grass"
 GameData["miss_events"]["rock"] = "Ground_impact/Bolter_Medium_Miss_Rock"
 GameData["miss_events"]["water"] = "Ground_impact/Bolter_Medium_Miss_Water"
-GameData["reload_time"] = 0.20000
+GameData["reload_time"] = 0.2
 GameData["ui_effective_against"]["text_01"] = "$90104"
 GameData["ui_hotkey_name"] = "marine_assault_cannon"
 GameData["ui_info"]["help_text_id"] = "$98001"
