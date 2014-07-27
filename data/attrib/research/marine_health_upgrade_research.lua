@@ -67,6 +67,16 @@ GameData["modifiers"]["modifier_16"] = Reference([[modifiers\ability_speed_fiend
 GameData["modifiers"]["modifier_16"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
 GameData["modifiers"]["modifier_16"]["target_type_name"] = "devastator"
 ---
+GameData["modifiers"]["modifier_05"] = Reference([[modifiers\health_maximum_modifier.lua]])
+GameData["modifiers"]["modifier_05"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
+GameData["modifiers"]["modifier_05"]["target_type_name"] = "vanguard_veteran"
+GameData["modifiers"]["modifier_05"]["value"] = 1.20000
+---
+GameData["modifiers"]["modifier_05"] = Reference([[modifiers\health_maximum_modifier.lua]])
+GameData["modifiers"]["modifier_05"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
+GameData["modifiers"]["modifier_05"]["target_type_name"] = "sergeant_vanguard_veteran"
+GameData["modifiers"]["modifier_05"]["value"] = 1.20000
+---
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["structure_name"] = "ebps\\races\\space_marines\\structures\\space_marine_hq.lua"
