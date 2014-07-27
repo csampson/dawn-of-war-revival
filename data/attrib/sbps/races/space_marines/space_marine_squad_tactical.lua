@@ -30,8 +30,8 @@ GameData["squad_morale_ext"]["broken_modifiers"]["modifier_01"]["application_typ
 GameData["squad_morale_ext"]["broken_modifiers"]["modifier_02"]["value"] = 0.10000
 GameData["squad_morale_ext"]["broken_modifiers"]["modifier_03"] = Reference([[modifiers\morale_break_event_space_marine.lua]])
 GameData["squad_morale_ext"]["broken_modifiers"]["modifier_04"] = Reference([[modifiers\no_modifier.lua]])
-GameData["squad_morale_ext"]["default"] = 400
-GameData["squad_morale_ext"]["max"] = 400
+GameData["squad_morale_ext"]["default"] = 300
+GameData["squad_morale_ext"]["max"] = 300
 GameData["squad_morale_ext"]["morale_armour"] = 0.50000
 GameData["squad_morale_ext"]["rate_per_second"] = 10.00000
 GameData["squad_reinforce_ext"] = Reference([[sbpextensions\squad_reinforce_ext.lua]])
