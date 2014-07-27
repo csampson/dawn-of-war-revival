@@ -14,7 +14,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["weapon"] = [[weapon\space_marine_power_fist_veteran.lua]]
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["name_for_this_weapon_choice"] = "space_marines_lightning_claw"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["weapon"] = [[weapon\space_marine_lightning_claw_veteran.lua]]
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 30
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 20
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 60
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 10
 GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_02"]["value"] = 1
@@ -23,7 +23,7 @@ GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_02"]["value"] = 1
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/space_marine_vanguard_assault"
 GameData["event_manager_ext"]["event_08"]["event_entry_01"]["event_name"] = "Space_Marines\\Upgrade_02"
 GameData["event_manager_ext"]["event_10"]["event_entry_01"]["event_name"] = "Space_Marines\\Upgrade_01"
-GameData["health_ext"]["hitpoints"] = 775
+GameData["health_ext"]["hitpoints"] = 575
 GameData["health_ext"]["morale_death"] = 40
 GameData["melee_ext"]["charge_range"] = 25.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "Feral_Leap"
